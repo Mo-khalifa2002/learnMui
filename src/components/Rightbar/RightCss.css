@@ -1,0 +1,60 @@
+@media only screen and (max-width: 900px) {
+  .boxxx {
+    width: 100vw !important;
+    position: relative !important;
+  }
+}
+
+button {
+  margin: 1rem;
+}
+
+.btn {
+  background-color: var(--background-color);
+  color: #222;
+  padding: 0.5em 1em;
+  border: none;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+
+  --background-color: #e3e3e3;
+  --border-size: 2px;
+  --accent-color: #0af;
+}
+.btn.btn-border-pop:hover {
+  background-color: rgb(19, 19, 74);
+  color: white;
+}
+.btn.btn-border-pop::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  border: var(2px) solid var(--background-color);
+  transition: top, left, right, bottom, 100ms ease-in-out;
+}
+
+.btn.btn-border-pop:hover::before,
+.btn.btn-border-pop:focus::before {
+  top: calc(2px * -2);
+  left: calc(2px * -2);
+  right: calc(2px * -2);
+  bottom: calc(2px * -2);
+}
+.friends {
+  background-color: rgba(112, 110, 110, 0.852);
+  color: white;
+  font-family: sans-serif;
+  padding: 1rem;
+  font-size: 25px;
+  letter-spacing: 2px;
+  cursor: cell;
+}
+

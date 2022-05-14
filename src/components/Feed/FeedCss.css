@@ -1,0 +1,140 @@
+@media only screen and (max-width: 905px) {
+  .buttoonn,
+  .grid11 {
+    display: none;
+  }
+}
+.grid11{
+  margin-top: 1rem;
+}
+/* search section */
+.search {
+  background-color: white;
+  box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+  position: relative;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+.avatarAndInput {
+  display: flex !important;
+  margin-bottom: 2rem !important;
+  justify-content: flex-start !important;
+  gap: 1rem !important;
+  align-items: center !important;
+}
+.avatarAndInput .avatar {
+  transform: scale(1.3);
+}
+.avatarAndInput input {
+  font-size: 20px;
+  outline: none;
+  border: none;
+  /* border-bottom: 3px solid yellow !important; */
+}
+.avatarAndInput input::placeholder {
+  color: rgb(40, 106, 40);
+}
+.allGrids {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
+.listText {
+  margin-left: -1.7rem !important;
+}
+.buttoonn {
+  margin-left: 7rem !important;
+}
+.hrr {
+  background-color: #4d2fed;
+  width: 70%;
+}
+/* search section */
+
+/* post section */
+.post {
+  /* position: relative; */
+  margin-top: 1rem;
+  background-color: white;
+  padding: 1rem;
+  box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px,
+    rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+  width: 100%;
+  border-radius: 10px;
+}
+.post .topPost {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post .topPostRight .rightt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-right: 1rem;
+}
+.post .topPostRight .name {
+  color: #2d1f1f;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: revert;
+}
+.post .topPostRight .time {
+  color: #2d1f1f;
+  font-size: 20px;
+  /* font-weight: bold; */
+  font-family: revert;
+}
+.post .topPostLeft {
+  cursor: pointer;
+}
+.post .topPostLeft:hover,
+.post .topPostLeft:focus {
+  cursor: pointer;
+}
+.post .postHeader {
+  margin-top: 1rem;
+  color: #3d590e;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+.post .image {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.post .postFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post .postFooterRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.post .postFooterLeft .footerText {
+  font-size: 20px;
+  color: #4b4b08;
+  text-transform: capitalize;
+}
+.post .postFooterRight .likeButton {
+  cursor: pointer;
+}
+.post .postFooterRight .loveButton {
+  cursor: pointer;
+}
+.post .postFooter .comments {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: monospace;
+  color: #00006c;
+}
+
+/* post section */

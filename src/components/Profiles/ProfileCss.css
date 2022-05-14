@@ -1,0 +1,78 @@
+/* the top section => PhotoSection */
+.containerr {
+  position: relative;
+  margin-bottom: 3rem;
+}
+.containerr .land {
+  width: 100%;
+  height: 500px;
+}
+.containerr .face {
+  transform: scale(0.2);
+  /* border-radius: 50% 50%; */
+  clip-path: circle();
+  position: relative;
+  /* margin-right: 5rem;
+  margin-left: 5rem; */
+  margin-top: -49rem;
+  border: 19px solid white;
+  /* margin-left: 17rem; */
+}
+.facee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerr .containerrText {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40rem;
+  font-size: 20px;
+  font-weight: bold;
+  color: darkblue;
+}
+/* the top section => PhotoSection */
+
+/* the right bar section => Next.jsx */
+.rightbarr {
+  z-index: 100;
+  margin-top: 1rem;
+}
+.rightbarr .userInfo h2 {
+  font-size: 30px;
+  color: #010148;
+  text-transform: capitalize;
+  margin-bottom: 7px;
+}
+.rightbarr .userInfo p {
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #374f0b;
+  font-weight: bod;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 3px;
+}
+.rightbarr img {
+  width: 80%;
+}
+.rightbarr .userFriends {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.rightbarr .friendInfo .friendName {
+  font-size: 19px;
+  font-weight: bold;
+  color: #002b00;
+  text-transform: capitalize;
+}
+.rightbarr .friendIgm img {
+  border-radius: 10px !important;
+}
+
+/* the right bar section => Next.jsx */

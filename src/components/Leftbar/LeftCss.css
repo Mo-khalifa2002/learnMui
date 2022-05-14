@@ -1,0 +1,25 @@
+.rightSide {
+  background-color: white;
+  padding: 1rem;
+}
+.rightSide .topSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  color: #014201;
+  margin-bottom: 1.6rem;
+}
+.rightSide .coldImg {
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+.rightSide.onlineFriends {
+  font-weight: bold;
+  color: darkblue;
+}
+.rightSide .list {
+  background-color: #c4e6f126;
+  border-radius: 10px;
+}
